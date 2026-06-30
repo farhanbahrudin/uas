@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Farhan Bahrudin</title>
+    <link rel="stylesheet" href="uas.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">Farhan Bahrudin. <span>/ FB</span></a>
+            
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#skill">Skill</a></li>
+                <li><a href="#proyek">Proyek</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+
+            <button id="mobile-menu-btn" class="menu-btn" aria-label="Menu">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+        
+        <div id="mobile-menu" class="mobile-menu">
+            <a href="#home">Home</a>
+            <a href="#tentang">Tentang</a>
+            <a href="#skill">Skill</a>
+            <a href="#proyek">Proyek</a>
+            <a href="#kontak">Kontak</a>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <p class="subtitle">Selamat Datang</p>
+                <h1 class="title">Halo, Saya <br><span>Farhan Bahrudin</span></h1>
+                <h2 class="description">Mahasiswa Teknologi Komputer di Politeknik Pajajaran</h2>
+                
+                <div class="hero-buttons">
+                    <a href="#proyek" class="btn btn-primary">Lihat Proyek Saya</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tentang" class="about bg-white">
+        <div class="container">
+            <h2 class="section-title">Tentang Saya</h2>
+            <div class="about-card">
+                <p>Saya adalah mahasiswa aktif program studi <strong>Teknologi Komputer di Politeknik Pajajaran</strong> yang memiliki ketertarikan mendalam terhadap bagaimana perangkat keras dan perangkat lunak dapat saling terintegrasi.</p>
+                <p>Fokus utama saya meliputi <span>Jaringan Komputer (Networking), Sistem Embedded,</span> serta pengembangan <span>Web Development</span> untuk antarmuka sistem. Saya senang memecahkan masalah teknis dan terus belajar teknologi terbaru untuk membangun infrastruktur IT yang efisien.</p>
+                <div class="academic-status">
+                    <strong>Status Akademis:</strong> Mahasiswa Semester 2 | IPK: 3.85
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skill" class="skills bg-light">
+        <div class="container">
+            <h2 class="section-title">Keahlian & Teknologi</h2>
+            <div class="grid-3">
+                <div class="card">
+                    <div class="icon-box">NET</div>
+                    <h3>Networking & Hardware</h3>
+                    <div class="tags">
+                        <span class="tag">Cisco Packet Tracer</span>
+                        <span class="tag">MikroTik</span>
+                        <span class="tag">Troubleshooting</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="icon-box">DEV</div>
+                    <h3>Programming & Web</h3>
+                    <div class="tags">
+                        <span class="tag">HTML5 & CSS3</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Python</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="icon-box">TLS</div>
+                    <h3>Tools & Lainnya</h3>
+                    <div class="tags">
+                        <span class="tag">Git & GitHub</span>
+                        <span class="tag">VS Code</span>
+                        <span class="tag">Linux (Ubuntu)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyek" class="projects bg-white">
+        <div class="container">
+            <h2 class="section-title">Proyek Terbaru</h2>
+            <p class="section-subtitle">Implementasi praktis dari hasil belajar di kampus dan eksplorasi pribadi.</p>
+            
+            <div class="grid-3">
+                <div class="project-card">
+                    <div class="project-img"></div>
+                    <div class="project-info">
+                        <div class="tags">
+                            <span class="tag">Cisco</span>
+                            <span class="tag">Networking</span>
+                        </div>
+                        <h3>Simulasi Jaringan</h3>
+                        <p>Mendesain dan mengonfigurasi topologi jaringan menggunakan VLAN, Routing OSPF, dan DHCP pada Cisco Packet Tracer.</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img"></div>
+                    <div class="project-info">
+                        <div class="tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                        <h3>Web portofolio</h3>
+                        <p>Merancang dan membangun web portofolio pribadi yang responsif menggunakan HTML dan CSS untuk menampilkan karya dan pencapaian akademik secara profesional di berbagai perangkat.</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img"></div>
+                    <div class="project-info">
+                        <div class="tags">
+                            <span class="tag">Arduino</span>
+                            <span class="tag">C++</span>
+                        </div>
+                        <h3>Sistem Sensor Berat Conveyor</h3>
+                        <p>Prototipe sistem tertanam menggunakan Mikrokontroler Arduino untuk memantau beban material pada ban berjalan (conveyor) dan membunyikan alarm otomatis jika mendeteksi kelebihan muatan (overloading).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontak" class="contact bg-light">
+        <div class="container">
+            <h2 class="section-title">Kontak Saya</h2>
+            <p class="section-subtitle">Mari terhubung! Silakan hubungi saya melalui salah satu media di bawah ini.</p>
+            
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">TEL</div>
+                    <h3>Telepon / WhatsApp</h3>
+                    <p><a href="https://wa.me/628822209001" target="_blank">08822209001</a></p>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">EML</div>
+                    <h3>Email Resmi</h3>
+                    <p><a href="mailto:farhanbahrudin27@gmail.com">farhanbahrudin27@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
